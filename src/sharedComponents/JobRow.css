@@ -1,0 +1,60 @@
+.details .qa::before{
+    content:url('../assets/images/building.svg');
+    height: 20px;
+    width: 20px;
+}
+.details .qa{
+    margin-right: 20px;
+}
+.details .location{
+    margin-right: 20px;
+}
+.details .location::before{
+    content: url('../assets/images/location.svg');
+    height: 20px;
+    width:20px;
+}
+.timing{
+    padding: 2px 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.right{
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+    margin-top: 10px;
+}
+.button_apply{
+    margin-right: 30px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 8px 16px;
+    color: blue;
+    font-size: 14px;
+    outline: none;
+    margin-left: 0px;
+}
+.view{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    font-weight: bolder;
+    color: #222222;
+    text-decoration: none !important;
+}
+.button_color{
+    margin-right: 30px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 6px 50px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    margin-top: 50px;
+}

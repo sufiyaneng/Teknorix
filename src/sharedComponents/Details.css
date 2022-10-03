@@ -1,0 +1,35 @@
+/* .social{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: start;
+    
+
+}
+
+.bi::before, [class*=" bi-"]::before, [class=bi-]::before{
+    color: #2e2b2b;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.card {
+    margin-top: 35px;
+    border-top: 1px solid black;
+}
+
+.details-main{
+    margin-left: 30px;
+} */
+.side_card{
+    background-color:rgb(204, 230, 230);
+    border: 1px solid #eee;
+    /* height: 100px; */
+    padding: 20px;
+}
+.social div{
+    
+    padding:12px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
